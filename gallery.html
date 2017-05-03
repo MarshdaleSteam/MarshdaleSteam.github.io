@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+
+<style>
+	body
+	{
+	    margin: auto;
+	    width: 80%;
+	    background-color: white;
+	}
+
+	.wrapper
+	{
+	    margin: 0 auto;
+	    width: 80%;
+	    background-color: white;
+	    height: 100%;
+	    padding-top: 1px;
+	}
+	
+
+	.navbar-main 
+	{
+	    margin: auto;
+	    background-color: white;
+	    padding-bottom: 5px;
+	    position: fixed;
+  	    z-index: 9999;
+  	    width: 80%;
+  	    height: 50px;
+  	    
+	}
+
+	.container-fluid
+	{
+	    background-color: white;
+	}
+	
+        .navbar-main .navbar-nav > .active > a
+	{
+	     color: black;
+	     background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > .active > a:hover
+	{
+    	    color: black;
+    	    background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > li > a:hover,
+	.navbar-main .navbar-nav > li > a:focus,
+	.navbar-main .navbar-header > a:hover,
+	.navbar-main .navbar-header > a:focus  
+	{
+	    color: black;
+    	    background-color: #f2f2f2;
+	    border-radius: 20px;
+	}
+
+        .navbar-main .navbar-nav > li > a 
+	{
+    	    color: black;
+	    padding: 25px;
+    	}
+	
+	.navbar-main .navbar-toggle .icon-bar 
+	{
+    	    background-color: black;
+	}
+
+	.navbar-main .navbar-brand
+	{
+	    color: black;
+	    margin-top: 9px;
+	}
+	.images
+	{
+	    padding-top: 20px;
+	}
+	
+	.slider
+	{
+		margin-top: 10%;
+		height: 70%;
+		width: 50%;
+		float: left;
+	}
+	
+	.intro
+	{
+		padding-top: 10%;
+		padding-left: 53%;
+		margin-left: 51%
+		background-color: gray;
+	}
+
+</style>
+
+</head>
+  <body>
+ <nav class="navbar navbar-main">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+	<span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="..\index.html"><img src="..\images/steam1.jpg"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="Toggle">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+		<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="Classes.html">Classes
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+		  <li><a href="classes/3dprinter.html">3d Printer</a></li>
+          <li><a href="classes/drones.html">Drones</a></li>
+          <li><a href="classes/owlPellets.html">Owl Pellets</a></li>
+          <li><a href="classes/playDoh.html">Play-Doh</a></li>
+		  <li><a href="classes/minecraft.html">Minecraft Circuitry</a></li>
+          <li><a href="classes/rubeGoldberg.html">Rube Goldberg</a></li>
+          <li><a href="classes/video.html">Green Screen & Stop Motion</a></li>
+		  <li><a href="classes/snapCircuits.html">Snap Circuits</a></li>
+		  <li><a href="classes/cowEyes.html">Cow Eyes</a></li>
+        </ul>
+      </li>
+      	 
+        <li><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> About </a></li> 
+      </ul>
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="contact.html"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<div class="slider">
+	<ul class="bxslider">
+	  <li class="slides"><a href="classes/3dprinter.html"><img src="images/3dprinter1.jpg" title="3d Printer"/></a></li>
+	  <li class="slides"><a href="classes/minecraft.html"><img src="images/bothteach1.jpg" title="Minecraft Redstone Circuitry" /></a></li>
+	  <li class="slides"><img src="images/circuit1.jpg" title="This shows a more technical example of the small snap circuits."/></li>
+	  <li class="slides"><img src="images/code1.jpg" title="An example of how this website was made."/></li>
+	  <li class="slides90"><a href="classes/video.html"><img src="images/stopMotion1.jpg" title="Small group working together on a greenscreen stop-motion project."/></a></li>
+	  <li class="slides"><a href="classes/drones.html"><img src="images/drones1.jpg" title="Using drones to understand how lift, thrust, drag, and weight impacts th flight."/></a></li>
+	  <li class="slides"><a href="classes/owlPellets.html"><img src="images/owl_pellets1.jpg" title="Disecting owl pellets to find bones."/></a></li>
+	  <li class="slides90"><a href="classes/3dprinter.html"><img src="images/thumbsup1.jpg" title=""/></a></li>
+	  <li class="slides"><img src="images/computerClass1.jpg" title="Freetime before the activity begins"/></li>
+	  <li class="slides"><a href="classes/rubeGoldberg.html"><img src="images/homePic1.jpg" title="Groups working together to make Rube Goldberg machines."/></a></li>
+
+
+	</ul>
+</div>
+<div class="intro">
+	<h2>STEAM Club</h2>
+	<p> 
+	Lorem ipsum dolor sit amet, vestibulum vestibulum, cum nisl. Nullam nunc nunc ipsum penatibus vel, consectetuer luctus quis, sociis a nullam ipsum blandit. Tellus ultricies nam, turpis mus, aliquam pellentesque semper ultricies, malesuada non ex sed molestie vivamus arcu, semper id. Dignissim nisl sed, malesuada tortor cum wisi malesuada elit, diam arcu justo lobortis, adipiscing elementum fringilla tristique vestibulum sapien duis. Integer mus integer, interdum eleifend arcu, quam odio vestibulum duis at. Placerat magnis, semper metus luctus sit facilisis suspendisse, mi sapien eu ultrices, senectus elit magna, suspendisse lorem dolor maecenas.
+	</p>
+</div>
+<script>
+ $('.bxslider').bxSlider({
+  adaptiveHeight: true,
+  auto: true,
+  captions: true
+});
+</script>
+
+</body>
+</html>
+
+
+

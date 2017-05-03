@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+	body
+	{
+	    margin: auto;
+	    width: 80%;
+	    background-color: white;
+	}
+
+	.wrapper
+	{
+	    margin: 0 auto;
+	    width: 80%;
+	    background-color: white;
+	    height: 100%;
+	    padding-top: 1px;
+	}
+	
+	.navbar-main 
+	{
+	    margin: 0 auto;
+	    background-color: white;
+	    padding-bottom: 5px;
+	    position: fixed;
+  	    z-index: 9999;
+  	    width: 80%;
+  	    height: 50px;
+	}
+
+	.container-fluid
+	{
+	    background-color: white;
+	}
+	
+        .navbar-main .navbar-nav > .active > a
+	{
+	     color: black;
+	     background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > .active > a:hover
+	{
+    	    color: black;
+    	    background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > li > a:hover,
+	.navbar-main .navbar-nav > li > a:focus,
+	.navbar-main .navbar-header > a:hover,
+	.navbar-main .navbar-header > a:focus  
+	{
+	    color: black;
+    	    background-color: #f2f2f2;
+	    border-radius: 20px;
+	}
+
+        .navbar-main .navbar-nav > li > a 
+	{
+    	    color: black;
+	    padding: 25px;
+    	}
+	
+	.navbar-main .navbar-toggle .icon-bar 
+	{
+    	    background-color: black;
+	}
+
+	.navbar-main .navbar-brand
+	{
+	    color: black;
+	    margin-top: 9px;
+	}
+
+	/*This Page*/
+	#image1
+	{
+	    padding-top: 10%;
+	    float: left;
+	}
+	#image2
+	{
+	    padding-top: 20%;
+	    float: right;
+	}
+	
+	#about1
+	{
+	    margin-left: 50%;
+	    margin-top: 10%;
+	}
+	
+	
+	#about2
+	{
+	    margin-right: 50%;
+	    margin-top: 10%;
+	}
+
+</style>
+
+</head>
+  <body>
+ <nav class="navbar navbar-main">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+	<span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/steam1.jpg"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="Toggle">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+		<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="Classes.html">Classes
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+		  <li><a href="classes/3dprinter.html">3d Printer</a></li>
+          <li><a href="classes/drones.html">Drones</a></li>
+          <li><a href="classes/owlPellets.html">Owl Pellets</a></li>
+          <li><a href="classes/playDoh.html">Play-Doh</a></li>
+		  <li><a href="classes/minecraft.html">Minecraft Circuitry</a></li>
+          <li><a href="classes/rubeGoldberg.html">Rube Goldberg</a></li>
+          <li><a href="classes/video.html">Green Screen & Stop Motion</a></li>
+		  <li><a href="classes/snapCircuits.html">Snap Circuits</a></li>
+		  <li><a href="classes/cowEyes.html">Cow Eyes</a></li>
+        </ul>
+      </li>
+      	 
+        <li class="active"><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> About </a></li> 
+      </ul>
+	  <ul class="nav navbar-nav navbar-right">
+		<li><a href="contact.html"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="wrapper">
+<table>
+	<tr>
+		<td> 
+			<img id="image1" src="images\tempPic.jpg" align:"left"\>
+			<p id="about1">Lorem ipsum dolor sit amet, vestibulum vestibulum, cum nisl. Nullam nunc nunc ipsum penatibus vel, consectetuer luctus quis, sociis a nullam ipsum blandit. Tellus ultricies nam, turpis mus, aliquam pellentesque semper ultricies, malesuada non ex sed molestie vivamus arcu, semper id. Dignissim nisl sed, malesuada tortor cum wisi malesuada elit, diam arcu justo lobortis, adipiscing elementum fringilla tristique vestibulum sapien duis. Integer mus integer, interdum eleifend arcu, quam odio vestibulum duis at. Placerat magnis, semper metus luctus sit facilisis suspendisse, mi sapien eu ultrices, senectus elit magna, suspendisse lorem dolor maecenas.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img id="image2" src="images\tempPic.jpg" class="img-responsive" alt="Image"\>
+			<p id="about2">Ante aliquet in quisque sagittis duis nec, eu nunc ut in dictum, dictum phasellus, ipsum eu convallis. Varius vehicula ea dolor accumsan erat vestibulum, quam luctus. Aliquet velit massa vestibulum fermentum, in interdum diam sapien vestibulum aenean in, accumsan ut at, elit sodales semper, mauris pede. Ultrices sem adipiscing vestibulum, ac wisi luctus pellentesque, eleifend pulvinar imperdiet pharetra. Pellentesque faucibus sem etiam elit. Sagittis ut rhoncus ante, suspendisse nulla eu lectus, sit tellus et donec mattis. Distinctio nam lacus scelerisque suspendisse, pellentesque aliquam quam tortor maecenas posuere porta.</p>
+		</td>
+	</tr>
+</table>
+</div>
+
+</body>
+</html>
+
+
+

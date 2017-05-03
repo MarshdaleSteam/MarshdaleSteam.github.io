@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Us</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+	body
+	{
+	    margin: auto;
+	    width: 80%;
+	    background-color: white;
+	}
+
+	.wrapper
+	{
+	    margin: 0 auto;
+	    width: 80%;
+	    background-color: white;
+	    height: 100%;
+	    padding-top: 1px;
+	}
+	
+	.navbar-main 
+	{
+	    margin: 0 auto;
+	    background-color: white;
+	    padding-bottom: 5px;
+	    position: fixed;
+  	    z-index: 9999;
+  	    width: 80%;
+  	    height: 50px;
+	}
+
+	.container-fluid
+	{
+	    background-color: white;
+	}
+	
+        .navbar-main .navbar-nav > .active > a
+	{
+	     color: black;
+	     background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > .active > a:hover
+	{
+    	    color: black;
+    	    background-color: #f2f2f2;
+	}
+
+	.navbar-main .navbar-nav > li > a:hover,
+	.navbar-main .navbar-nav > li > a:focus,
+	.navbar-main .navbar-header > a:hover,
+	.navbar-main .navbar-header > a:focus  
+	{
+	    color: black;
+    	    background-color: #f2f2f2;
+	    border-radius: 20px;
+	}
+
+        .navbar-main .navbar-nav > li > a 
+	{
+    	    color: black;
+	    padding: 25px;
+    	}
+	
+	.navbar-main .navbar-toggle .icon-bar 
+	{
+    	    background-color: black;
+	}
+
+	.navbar-main .navbar-brand
+	{
+	    color: black;
+	    margin-top: 9px;
+	}
+
+	/*This Page*/
+	#image1
+	{
+	    padding-top: 10%;
+	    float: left;
+	}
+	#image2
+	{
+	    padding-top: 20%;
+	    float: right;
+	}
+	
+	#about1
+	{
+	    margin-left: 50%;
+	    margin-top: 10%;
+	}
+	
+	
+	#about2
+	{
+	    margin-right: 50%;
+	    margin-top: 10%;
+	}
+	
+	.container
+	{
+		padding-top: 5%;
+	}
+	
+	#success_message{ display: none;}
+
+</style>
+
+</head>
+  <body>
+ <nav class="navbar navbar-main">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Toggle">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+	<span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/steam1.jpg"/></a>
+    </div>
+    <div class="collapse navbar-collapse" id="Toggle">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+		<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="Classes.html">Classes
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+		  <li><a href="classes/3dprinter.html">3d Printer</a></li>
+          <li><a href="classes/drones.html">Drones</a></li>
+          <li><a href="classes/owlPellets.html">Owl Pellets</a></li>
+          <li><a href="classes/playDoh.html">Play-Doh</a></li>
+		  <li><a href="classes/minecraft.html">Minecraft Circuitry</a></li>
+          <li><a href="classes/rubeGoldberg.html">Rube Goldberg</a></li>
+          <li><a href="classes/video.html">Green Screen & Stop Motion</a></li>
+		  <li><a href="classes/snapCircuits.html">Snap Circuits</a></li>
+		  <li><a href="classes/cowEyes.html">Cow Eyes</a></li>
+        </ul>
+      </li>
+      	 
+        <li><a href="about.html"><span class="glyphicon glyphicon-info-sign"></span> About </a></li> 
+      </ul>
+	  <ul class="nav navbar-nav navbar-right">
+		<li class="active"><a href="contact.html"><span class="glyphicon glyphicon-user"></span> Contact Us</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<h1>Contact</h1>
+<div class="container">
+
+    <form class="well form-horizontal" action="https://script.google.com/macros/s/AKfycbz4nqQySlQLrXfDzNodAEkLMTd4pOvc9R0A3TNFDCfZBgYP3KI/exec" method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Contact Us Today!</legend>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Description</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Description"></textarea>
+  </div>
+  </div>
+</div>
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+	
+  </div>
+  
+</div>
+
+</fieldset>
+</form>
+<div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for filling out our test form!
+      We will get back to you soon!</h2>
+  </div>
+</div>
+	
+    </div><!-- /.container -->
+	<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+</body>
+</html>
+
+
+
+
+
+
